@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Comments – Vegan Flavors of Turkey</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="comments.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+    <div class="top-bar">
+        <div class="logo">Vegan Flavors of Turkey</div>
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+            <a href="comments.html">Comments</a>
+        </nav>
+    </div>
+
+    <p class="subtitle">
+        This is the comments page. You can share your reviews and photos of the recipes here.
+    </p>
+</header>
+
+<main class="content">
+
+    <section class="info-section">
+        <h2>Add a Comment</h2>
+
+        <label for="username">Name:</label><br>
+        <input type="text" id="username" placeholder="Your name"><br><br>
+
+        <label for="commentText">Comment:</label><br>
+        <textarea id="commentText" placeholder="Write your comment here..."></textarea><br><br>
+
+        <label for="imageUpload">Upload an image:</label><br>
+        <input type="file" id="imageUpload" accept="image/*"><br><br>
+
+        <button id="submitComment">Submit Comment</button>
+    </section>
+
+    <section class="info-section">
+        <h2>User Comments</h2>
+        <div id="commentsContainer">
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <p>Regional Turkish Cuisine - Vegan and Traditional Versions - Student Project</p>
+</footer>
+
+</body>
+</html>
